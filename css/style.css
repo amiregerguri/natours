@@ -192,6 +192,7 @@ body {
     position: absolute;
     z-index: 10;
     transition: all .2s;
+    -webkit-outline-offset: 2rem;
     outline-offset: 2rem; }
     .composition__photo--p1 {
       left: 0;
@@ -217,6 +218,7 @@ body {
   text-align: center;
   border-radius: 3px;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+  -webkit-transition: transform .3s;
   transition: transform .3s; }
   .feature-box__icon {
     font-size: 6rem;
@@ -224,8 +226,10 @@ body {
     display: inline-block;
     background-image: linear-gradient(to right, #7ed56f, #28b485);
     -webkit-background-clip: text;
+    background-clip: text;
     color: transparent; }
   .feature-box:hover {
+    -webkit-transform: translateY(-1.5rem) scale(1.03);
     transform: translateY(-1.5rem) scale(1.03); }
 
 .card {
