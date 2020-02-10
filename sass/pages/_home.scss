@@ -15,11 +15,12 @@
         url(../img/nat-4.jpg);
     background-size: cover;
 //    clip-path: polygon(0 20%, 100% 0%, 100% 80%, 0% 100%);
-    
+    -webkit-transform: skewY(-7deg);
     transform: skewY(-7deg);
     margin-top: -10rem;
     
     & > *{
+        -webkit-transform: skewY(7deg);
         transform: skewY(7deg);
     }
     //section-features > * {} [Ne klasen section features selektoj krejt cka ka mrena]
