@@ -876,7 +876,7 @@ body {
     transform: skewY(7deg); }
   @media (max-width: 56.25em) {
     .section-features {
-      padding: 15rem 30rem; } }
+      padding: 15rem 25%; } }
   @media (max-width: 37.5em) {
     .section-features {
       padding: 15rem 0rem; } }
@@ -887,7 +887,7 @@ body {
   margin-top: -10rem; }
   @media (max-width: 56.25em) {
     .section-tours {
-      padding: 20rem 30rem 10rem 30rem; } }
+      padding: 20rem 25% 10rem 25%; } }
   @media (max-width: 37.5em) {
     .section-tours {
       padding: 20rem 0 10rem 0; } }
