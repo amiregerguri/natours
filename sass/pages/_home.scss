@@ -32,7 +32,11 @@
     }
     //section-features > * {} [Ne klasen section features selektoj krejt cka ka mrena]
      @include respond(tab-port) {
-        padding: 15rem 0;
+        padding: 15rem 30rem;
+    }
+    
+    @include respond(phone) {
+        padding: 15rem 0rem;
     }
 }
 
@@ -42,6 +46,10 @@
     margin-top: -10rem;
     
      @include respond(tab-port){
+        padding: 20rem 30rem 10rem 30rem;
+    }
+    
+     @include respond(phone){
         padding: 20rem 0 10rem 0;
     }
 
