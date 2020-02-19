@@ -38,9 +38,15 @@ body{
 
 }
 
+
 html, body{
     @include respond(phone){
         width:100%;
         overflow-x:hidden;
     }
+}
+
+::selection{
+    background-color: $color-primary;
+    color: $color-white;
 }
